@@ -1,4 +1,3 @@
-
 package com.packtpub.resteasy.entities;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -11,41 +10,41 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
 
-	@XmlAttribute
-	protected int id;
-	@XmlElement
-	protected String name;
-	@XmlElement
-	protected String lastname;
+    @XmlAttribute
+    protected int id;
+    @XmlElement
+    protected String name;
+    @XmlElement
+    protected String lastname;
 
-	public int getId() {
+    public int getId() {
 
-		return id;
-	}
+        return id;
+    }
 
-	public void setId(int id) {
+    public void setId(int id) {
 
-		this.id = id;
-	}
+        this.id = id;
+    }
 
-	public String getName() {
+    public String getName() {
 
-		return name;
-	}
+        return name;
+    }
 
-	public void setName(String name) {
+    public void setName(String name) {
 
-		this.name = name;
-	}
+        this.name = name;
+    }
 
-	public String getLastname() {
+    public String getLastname() {
 
-		return lastname;
-	}
+        return lastname;
+    }
 
-	public void setLastname(String lastname) {
+    public void setLastname(String lastname) {
 
-		this.lastname = lastname;
-	}
+        this.lastname = lastname;
+    }
 
 }
